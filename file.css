@@ -1,0 +1,132 @@
+body{
+    /* background-image: url(/todo.png); */
+    height: 90vh;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.to-do{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+.to-do h2{
+    font-size: 60px;
+    color: greenyellow;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    text-decoration: overline;
+    margin-bottom: 30px;
+    user-select: none;
+}
+.to-do h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: red;
+}
+.to-do h3{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    user-select: none;
+    box-shadow: inset 2px 2px 5px 3px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 2px 2px 5px 3px rgba(34, 26, 26, 0.3);
+    background-color: wheat;
+}
+button{
+    padding: 10px;
+    background-color: azure;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 5px 3px rgba(5, 38, 39, 0.3);
+}
+button:hover{
+    background-color: rgb(173, 212, 212);
+    box-shadow: inset 2px 2px 5px 3px rgba(5, 38, 39, 0.5);
+}
+.toDoItems{
+    background-color: azure;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+    box-shadow: inset 2px 2px 5px 3px rgba(5, 38, 39, 0.3);
+}
+.paragraph-styling{
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+@media (max-width:540px) {
+    .to-do h2{
+        font-size: 40px;
+        color: greenyellow;
+        margin-bottom: 0;
+        font-family: sans-serif;
+        text-decoration: overline;
+        margin-bottom: 30px;
+        user-select: none;
+    }
+    input{
+        padding: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        box-shadow: inset 2px 2px 5px 3px rgba(34, 26, 26, 0.3);
+        background-color: wheat;
+    }
+    button{
+        padding: 7px;
+        background-color: azure;
+        border: none;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: bold;
+        transition: 0.4s;
+        cursor: pointer;
+        box-shadow: inset 2px 2px 5px 3px rgba(5, 38, 39, 0.3);
+    }
+    .to-do h3{
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-top: 60px;
+        background-color: greenyellow;
+        border-radius: 10px;
+        user-select: none;
+        box-shadow: inset 2px 2px 5px 3px rgba(0, 0, 0, 0.7);
+        padding: 10px;
+    }
+}
+@media (max-width:348px) {
+    .to-do h2{
+        font-size: 30px;
+        color: greenyellow;
+        margin-bottom: 0;
+        font-family: sans-serif;
+        text-decoration: overline;
+        margin-bottom: 30px;
+        user-select: none;
+    }
+}
